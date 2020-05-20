@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePack.CSharpFunctionalExtensions", "MessagePack.CSharpFunctionalExtensions\MessagePack.CSharpFunctionalExtensions.csproj", "{8A568292-F9D8-4C34-A4F2-D776E1837B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePack.CSharpFunctionalExtensionsTests", "MessagePack.CSharpFunctionalExtensionsTests\MessagePack.CSharpFunctionalExtensionsTests.csproj", "{BB3BB388-AA88-477A-B73C-0D81FF4425D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A568292-F9D8-4C34-A4F2-D776E1837B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A568292-F9D8-4C34-A4F2-D776E1837B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A568292-F9D8-4C34-A4F2-D776E1837B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A568292-F9D8-4C34-A4F2-D776E1837B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3BB388-AA88-477A-B73C-0D81FF4425D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3BB388-AA88-477A-B73C-0D81FF4425D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3BB388-AA88-477A-B73C-0D81FF4425D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3BB388-AA88-477A-B73C-0D81FF4425D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82A97378-7955-4F4F-80A0-08EA58F95CBC}
+	EndGlobalSection
+EndGlobal
