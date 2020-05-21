@@ -57,7 +57,8 @@ namespace MessagePack.CSharpFunctionalExtensions
         {
             {typeof(Result), ResultMessagePackFormatter.Instance},
             {typeof(Result<>), typeof(ResultOfTMessagePackFormatter<>)},
-            {typeof(Result<,>), typeof(ResultOfTTeEMessagePackFormatter<,>)}
+            {typeof(Result<,>), typeof(ResultOfTTeEMessagePackFormatter<,>)},
+            {typeof(Maybe<>), typeof(MaybeMessagePackFormatter<>)}
         };
     }
 }
