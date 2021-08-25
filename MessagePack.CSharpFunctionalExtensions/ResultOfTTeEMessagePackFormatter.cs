@@ -22,7 +22,7 @@ namespace MessagePack.CSharpFunctionalExtensions
                 var formatter = options.Resolver.GetFormatterWithVerify<T>();
                 var value = formatter.Deserialize(ref reader, options);
 
-                return Result.Ok<T,TE>(value);
+                return Result.Success<T,TE>(value);
             }
             else
             {

@@ -53,7 +53,7 @@ namespace MessagePack.CSharpFunctionalExtensionsTests
                 StringValue = "test str"
             };
 
-            var result = Result.Ok(obj);
+            var result = Result.Success(obj);
 
             var serialized = MessagePackSerializer.Serialize(result, _options);
             var deserialized = MessagePackSerializer.Deserialize<Result<DefaultClass>>(serialized, _options);

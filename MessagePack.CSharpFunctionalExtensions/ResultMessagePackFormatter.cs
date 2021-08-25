@@ -6,7 +6,7 @@ namespace MessagePack.CSharpFunctionalExtensions
 {
     public class ResultMessagePackFormatter : IMessagePackFormatter<Result>
     {
-        public static readonly ResultMessagePackFormatter Instance = new ResultMessagePackFormatter();
+        public static readonly ResultMessagePackFormatter Instance = new();
 
 
         public Result Deserialize(ref MessagePackReader reader, MessagePackSerializerOptions options)
@@ -19,7 +19,7 @@ namespace MessagePack.CSharpFunctionalExtensions
                 throw new InvalidOperationException();
 
             if (!reader.ReadBoolean())
-                return Result.Ok();
+                return Result.Success();
 
             var error = reader.ReadString();
             return Result.Failure(error);

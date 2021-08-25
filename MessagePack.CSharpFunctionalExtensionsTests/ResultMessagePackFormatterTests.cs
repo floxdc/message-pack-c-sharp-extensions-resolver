@@ -29,7 +29,7 @@ namespace MessagePack.CSharpFunctionalExtensionsTests
         [Fact]
         public void ShouldHandleFail()
         {
-            var result = Result.Ok();
+            var result = Result.Success();
 
             var serialized = MessagePackSerializer.Serialize(result, _options);
             var deserialized = MessagePackSerializer.Deserialize<Result>(serialized, _options);

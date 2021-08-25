@@ -53,7 +53,7 @@ namespace MessagePack.CSharpFunctionalExtensions
         }
 
 
-        private static readonly Dictionary<Type, object> FormatterMap = new Dictionary<Type, object>
+        private static readonly Dictionary<Type, object> FormatterMap = new()
         {
             {typeof(Result), ResultMessagePackFormatter.Instance},
             {typeof(Result<>), typeof(ResultOfTMessagePackFormatter<>)},
