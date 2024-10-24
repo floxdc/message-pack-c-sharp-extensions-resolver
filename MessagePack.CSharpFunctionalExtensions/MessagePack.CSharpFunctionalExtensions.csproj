@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1;net5.0;net6.0;net8.0</TargetFrameworks>
     <LangVersion>latest</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Flox DC</Company>
@@ -9,14 +9,14 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>MsgPack MessagePack Serialization Formatter CSharpFunctionalExtensions</PackageTags>
     <Description>A MessagePack resolver for CSharpFunctionalExtensions</Description>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <PackageProjectUrl>https://github.com/floxdc/message-pack-c-sharp-extensions-resolver</PackageProjectUrl>
     <RepositoryUrl>https://github.com/floxdc/message-pack-c-sharp-extensions-resolver</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CSharpFunctionalExtensions" Version="2.34.3" />
-    <PackageReference Include="MessagePack" Version="2.4.35" />
+    <PackageReference Include="CSharpFunctionalExtensions" Version="3.1.0" />
+    <PackageReference Include="MessagePack" Version="2.5.187" />
   </ItemGroup>
 
 </Project>
